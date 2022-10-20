@@ -1,0 +1,130 @@
+body {
+ background-image: url(./rye-sliced-bread-on-the-table.jpg);   
+ background-size: 100rem;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(227, 227, 227);
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 9px;
+    
+}
+
+.link2 {
+  float: left;
+  color: #202020;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.li1{
+    display: inline;
+}
+
+ .link2:hover {
+        background-color: rgb(149, 149, 149);
+      }
+
+.icon {
+    width: 30px;
+    position: fixed;
+    margin-left: 60rem;
+    margin-top: 0.3rem;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.icon2 {
+    width: 30px;
+    position: fixed;
+    margin-left: 62rem;
+    margin-top: 0.3rem;
+    transition: transform .2s;
+}
+
+.icon2:hover {
+    transform: scale(1.5);
+}
+
+.icon3 {
+    width: 30px;
+    position: fixed;
+    margin-left: 64rem;
+    margin-top: 0.3rem;
+    transition: transform .2s;
+}
+
+.icon3:hover {
+    transform: scale(1.5);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    margin-left: 49rem;
+    width: 100%;
+    font-size: 3.3rem;
+    line-height: 60px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-shadow: 3px 3px #d06304;
+}
+
+.paragraph {
+    color: antiquewhite;
+    position: fixed;
+    margin-top: 10rem;
+    font-size: 2rem;
+    width: 300px;
+    margin-left: 10rem;
+    border-radius: 8px;
+    text-shadow: 3px 3px rgb(2, 2, 2);
+}
+
+.aboutus {
+    position: fixed;
+    margin-top: 25rem;
+    margin-left: 30rem;
+}
+
+.readmore {
+    position: fixed;
+    margin-top: -0.5rem;
+    margin-left: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.readmore:hover {
+    transform: scale(1.0);
+    color: rgb(254, 229, 0);
+}
+
+.active {
+    background-color: #00a5f1;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}

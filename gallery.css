@@ -1,0 +1,153 @@
+body {
+    background-color: #d7e8fd;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 40, 40);
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 9px;
+
+}
+
+.link2 {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.li1 {
+    display: inline;
+}
+
+.link2:hover {
+    background-color: rgb(149, 149, 149);
+}
+
+.active {
+    background-color: #00a5f1;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.search-container {
+    float: right;
+    padding: 11px;
+}
+
+.icon1 {
+    width: 18px;
+}
+
+button{
+    width: 35px;
+    background-color: #d0d0d095;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 210px;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon2:hover {
+    transform: scale(1.5);
+}
+
+.icon3 {
+    
+    width: 30px;
+    float: right;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon3:hover {
+    transform: scale(1.5);
+}
+
+
+
+.container2 {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.box1 {
+    flex: 1;
+    order: 2;
+}
+
+.box2 {
+    flex: 1;
+    order: 1;
+}
+
+.box3 {
+    flex: 1;
+    order: 3;
+}
+
+.picture1 {
+    width: 70%;
+    position: relative; 
+    margin-left: 20%;
+    border-radius: 10px;
+    transition: transform .2s;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.373);
+}
+
+.picture1:hover {
+    transform: scale(1.5);
+}
+
+.container4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./pngkey.com-water-waves-png-1220928.png);
+}
+
+.minicontainer {
+    display: flex;
+    justify-content: end;
+    margin: 9px;
+}
+
+h1 {
+    font-family: gabriola;
+    font-size: xxx-large;
+    text-align: center;
+}

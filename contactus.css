@@ -1,0 +1,169 @@
+body {
+    background-color: #F0F4F9;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 40, 40);
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 9px;
+    position: sticky;
+    top: 0;
+
+}
+
+.link2 {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.li1 {
+    display: inline;
+}
+
+.link2:hover {
+    background-color: rgb(149, 149, 149);
+}
+
+.active {
+    background-color: #00a5f1;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    font-weight: bold;
+}
+
+.search-container {
+    float: right;
+    padding: 11px;
+}
+
+.icon1 {
+    width: 18px;
+}
+
+.searchin{
+    width: 35px;
+    background-color: #d0d0d095;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 210px;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon2:hover {
+    transform: scale(1.5);
+}
+
+.icon3 {
+    
+    width: 30px;
+    float: right;
+    margin-top: 6px;
+    transition: transform .2s;
+}
+
+.icon3:hover {
+    transform: scale(1.5);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4c84af;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4586a0;
+  }
+  
+  .form1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    margin-top: 7rem;
+  }
+
+  .box1 {
+    flex: 1;
+    order: 1;
+  }
+
+  .box2 {
+    flex: 1;
+    order: 2;
+  }
+
+  .paragraph {
+    background-color: #e8e8e8;
+    font-size: 22px;
+    margin: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./pngkey.com-water-waves-png-1220928.png);
+}
+
+.minicontainer {
+    display: flex;
+    justify-content: end;
+    margin: 9px;
+}
